@@ -7,7 +7,7 @@
 
 ## 第一步：创建项目和应用
 
-在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](https://cloud.tencent.com/document/product/666/15345)。
+在使用我们的服务前，您必须先在 MobileLine 控制台上创建项目和应用。
 
 > 如果您已经在 MobileLine 控制台上创建过了项目和应用，请跳过此步。
 
@@ -86,24 +86,9 @@ apply plugin: 'com.tencent.tac.services'
 
 |功能|服务名称|入门指南|
 |:---|:---|:---|
-|腾讯移动分析（MTA）|analytics|[Analytics 快速入门](https://cloud.tencent.com/document/product/666/14313)|
-|腾讯移动推送（信鸽）|messaging|[Messaging 快速入门](https://cloud.tencent.com/document/product/666/14323)|
-|腾讯崩溃服务（bugly）|crash|[Crash 快速入门](https://cloud.tencent.com/document/product/666/14309)|
-|腾讯计费（米大师）|payment|[Payment 快速入门](https://cloud.tencent.com/document/product/666/14593)|
-|移动存储（Storage）|storage|[Storage 快速入门](https://cloud.tencent.com/document/product/666/14327)|
-|微信 QQ 登录（Authorization）|authorization|[Authorization 快速入门](https://cloud.tencent.com/document/product/666/14331)|
-
-## 后续步骤
-
-### 了解 MobileLine
-
-- 查看 [MoblieLine Android 应用示例](https://github.com/tencentyun/tac-sdk-android-samples)
-
-### 向应用中添加 MobileLine 功能
-
-- 借助 [Analytics](https://cloud.tencent.com/document/product/666/14822) 深入分析用户行为。
-- 借助 [messaging](https://cloud.tencent.com/document/product/666/14826) 向用户发送通知。
-- 借助 [crash](https://cloud.tencent.com/document/product/666/14824) 确定应用崩溃的时间和原因。
-- 借助 [storage](https://cloud.tencent.com/document/product/666/14828) 存储和访问用户生成的内容（如照片或视频）。
-- 借助 [authorization](https://cloud.tencent.com/document/product/666/14830) 获取微信和 QQ 登录能力。
-- 借助 [payment](https://cloud.tencent.com/document/product/666/14832) 获取微信和 QQ 支付能力。
+|腾讯移动分析（MTA）|analytics|[Analytics 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%88%86%E6%9E%90%20Analytics%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
+|腾讯移动推送（信鸽）|messaging|[Messaging 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
+|腾讯崩溃服务（bugly）|crash|[Crash 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%B4%A9%E6%BA%83%E7%9B%91%E6%B5%8B%20Crash%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
+|腾讯计费（米大师）|payment|[Payment 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
+|移动存储（Storage）|storage|[Storage 快速入门](https://github.com/tencentyun/tac-documents/tree/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3)|
+|微信 QQ 登录（Authorization）|authorization|[Authorization 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%8E%88%E6%9D%83%20Authorization%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|

@@ -4,7 +4,7 @@
 
 ## 第一步：创建项目和应用（已完成请跳过）
 
-在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](https://cloud.tencent.com/document/product/666/15345)。
+在使用我们的服务前，您必须先在 MobileLine 控制台上创建项目和应用。
 
 ## 第二步：添加配置文件（已完成请跳过）
 
@@ -60,7 +60,7 @@ apply plugin: 'com.tencent.tac.services'
 TACCrashSimulator.testJavaCrash();
 ```
 
-应用 Crash 后，您可以登录 [MobileLine 控制台](https://console.cloud.tencent.com/tac)，然后单击【异常上报】下的【异常分析】，即可查看上报到控制台的异常，如果没有上报，您可以查看 [常见问题](https://cloud.tencent.com/document/product/666/14825)
+应用 Crash 后，您可以登录 [MobileLine 控制台](https://console.cloud.tencent.com/tac)，然后单击【异常上报】下的【异常分析】，即可查看上报到控制台的异常，如果没有上报，您可以查看 [常见问题](https://github.com/tencentyun/tac-documents/blob/master/FAQ/Crash%20FAQ.md)
 
 ![](https://tacimg-1253960454.file.myqcloud.com/guides/crash/crash_report.gif)
 

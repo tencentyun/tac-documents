@@ -14,6 +14,6 @@ testArray[100];
 
 ## 在控制台上查看异常是否上报成功
 
-应用 Crash 后，您可以登录 [MobileLine 控制台](https://console.cloud.tencent.com/tac)，单击【异常上报】>【异常分析】，即可查看上报到控制台的异常，如果没有上报，可以查看 [常见问题](https://cloud.tencent.com/document/product/666/14825)
+应用 Crash 后，您可以登录 [MobileLine 控制台](https://console.cloud.tencent.com/tac)，单击【异常上报】>【异常分析】，即可查看上报到控制台的异常，如果没有上报，可以查看 [常见问题](https://github.com/tencentyun/tac-documents/blob/master/FAQ/Crash%20FAQ.md)
 
 ![](https://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/crash/crash_report.png)

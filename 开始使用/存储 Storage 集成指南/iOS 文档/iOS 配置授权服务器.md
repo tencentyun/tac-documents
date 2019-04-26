@@ -9,7 +9,7 @@
 
 ## 临时密钥使用指南
 
-假设您已经按照 [快速搭建后台授权服务](https://cloud.tencent.com/document/product/666/17922) 搭好了授权服务器，并且服务器直接将 CAM 返回的 JSON 数据透传给客户端。（如果是其它格式的数据，那么需要自定义解析过程）。
+假设您已经按照 [快速搭建后台授权服务](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E5%AE%89%E5%85%A8%E5%92%8C%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6/%E7%94%A8%E6%88%B7%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6.md) 搭好了授权服务器，并且服务器直接将 CAM 返回的 JSON 数据透传给客户端。（如果是其它格式的数据，那么需要自定义解析过程）。
 
 
 这里假设请求临时密钥的接口是：

@@ -1,12 +1,12 @@
 ## 准备工作
 
 - 您首先需要一个 Android 工程，这个工程可以是您现有的工程，也可以是您新建的一个空的工程。
-- 其次您需要 [配置后台服务器](https://cloud.tencent.com/document/product/666/14600)。
-- 最后您需要申请到相关支付渠道（[如何自行申请渠道](https://cloud.tencent.com/document/product/666/14599)）。
+- 其次您需要 [配置后台服务器](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E5%8F%91%E8%B4%A7%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE.md)。
+- 最后您需要申请到相关支付渠道（[如何自行申请渠道](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%94%AF%E4%BB%98%E6%B8%A0%E9%81%93%E7%94%B3%E8%AF%B7%E6%8C%87%E5%BC%95.md)）。
 
 ## 第一步：创建项目和应用（已完成请跳过）
 
-在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](https://cloud.tencent.com/document/product/666/15345)。
+在使用我们的服务前，您必须先在 MobileLine 控制台上创建项目和应用。
 
 ## 第二步：添加配置文件（已完成请跳过）
 

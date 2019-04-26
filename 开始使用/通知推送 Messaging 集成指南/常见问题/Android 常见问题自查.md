@@ -20,7 +20,7 @@
 
 #### 注册不成功无法收到推送：
 **1. 注册返回错误:**
-如 10004，20 等请参考[错误码一览](https://cloud.tencent.com/document/product/666/14858)。
+如 10004，20 等请参考[错误码一览](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E5%BC%80%E5%8F%91%E8%80%85%E6%89%8B%E5%86%8C/%E8%BF%94%E5%9B%9E%E7%A0%81%E4%B8%80%E8%A7%88.md)。
 
 **错误 10004**
 原因：.so 文件导入不全，so 是用来适配各种设备的不同型号的 CPU，如出现 10004 的错误，应该查看当前导入的 .so 库文件是否支持当前设备的 CPU。如果不支持需要添加对应的 .so 文件（完整的 .so 库在 SDK 文件夹下 Other-Platform-SO 目录内）。
@@ -29,7 +29,7 @@
 将需要的对应设备 CPU 的 .so 文件复制到 lib 目前中。
 
 **Androidstudio 的开发工具的解决办法：**
-Androidstudio 可在 .main 文件目录下添加 jniLibs 命名的文件夹将 SDK 文档中的 Other-Platform-SO 下的七个 .so 库文件夹添加至该目录 ，或者采用[自动接入](https://cloud.tencent.com/document/product/666/14323)，无须手动导入 .so 文件。
+Androidstudio 可在 .main 文件目录下添加 jniLibs 命名的文件夹将 SDK 文档中的 Other-Platform-SO 下的七个 .so 库文件夹添加至该目录 ，或者采用[自动接入](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)，无须手动导入 .so 文件。
 
 **2. 如注册无回调:**
 确认当前*网络情况*是否良好（建议使用 4G 网络测试，WiFi 由于使用人数过多可能造成网络带宽不足），是否添加*wup 包*，以及*努比亚手机*（部分机型不支持第三方推送）在 2015 年下半年和 2016 年出的机器都无法注册，具体机型包括 nubia Z11 系列，nubiaZ11S 系列，nubiaZ9S 系列。可以的机器都是之前的机器，包括 Z7 系列，my 布拉格系列（在信鸽 2.47 和信鸽 3.X 上都有这个现象）。

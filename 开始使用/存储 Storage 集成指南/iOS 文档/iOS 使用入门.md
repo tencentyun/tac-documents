@@ -2,13 +2,13 @@
 
 ## 准备工作
 * 您首先需要一个 iOS 工程，这个工程可以是您现有的工程，也可以是您新建的一个空的工程。
-* 其次您需要一个在后台搭建一个授权服务器，为SDK提供临时密钥，请参考 [用户访问控制](https://cloud.tencent.com/document/product/666/17922)。
+* 其次您需要一个在后台搭建一个授权服务器，为SDK提供临时密钥，请参考 [用户访问控制](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E5%AE%89%E5%85%A8%E5%92%8C%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6/%E7%94%A8%E6%88%B7%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6.md)。
 
 
 ## 第一步：创建项目和应用
 
 
-在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](https://cloud.tencent.com/document/product/666/15345)。
+在使用我们的服务前，您必须先在 MobileLine 控制台上创建项目和应用。
 
 > 如果您已经在 MobileLine 控制台上创建过了项目和应用，请跳过此步。
 
@@ -166,25 +166,8 @@ TACApplication.configurate();
 
 ### 步骤三 配置 TACStorage 的使用权限
 
-Storage SDK 需要一个后台授权服务器提供临时密钥，才能正常工作。关于如何在 SDK 里配置服务器接口，请参见  [iOS 配置授权服务器](https://cloud.tencent.com/document/product/666/17216)。
+Storage SDK 需要一个后台授权服务器提供临时密钥，才能正常工作。关于如何在 SDK 里配置服务器接口，请参见  [iOS 配置授权服务器](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/iOS%20%E6%96%87%E6%A1%A3/iOS%20%E9%85%8D%E7%BD%AE%E6%8E%88%E6%9D%83%E6%9C%8D%E5%8A%A1%E5%99%A8.md)。
 
 ## 启动服务
 
 移动存储服务无需启动，到此您已经成功接入了 MobileLine 移动存储服务。
-
-## 后续步骤
-
-您可以通过策略精确控制您数据的访问权限，可以参考 [数据安全性最佳实践](https://cloud.tencent.com/document/product/666/17921)。
-
-### 了解 MobileLine：
-
-- 查看 [MoblieLine 应用示例](https://ios-release-1253960454.cos.ap-shanghai.myqcloud.com/tac.zip)
-
-### 向您的应用添加 MobileLine 功能：
-
-- 借助 [Analytics](https://cloud.tencent.com/document/product/666/14822) 深入分析用户行为。
-- 借助 [messaging](https://cloud.tencent.com/document/product/666/14826) 向用户发送通知。
-- 借助 [crash](https://cloud.tencent.com/document/product/666/14824) 确定应用崩溃的时间和原因。
-- 借助 [storage](https://cloud.tencent.com/document/product/666/14828) 存储和访问用户生成的内容（如照片或视频）。
-- 借助 [authorization](https://cloud.tencent.com/document/product/666/14830) 来进行用户身份验证。
-- 借助 [payment](https://cloud.tencent.com/document/product/666/14832) 获取微信和手 Q 支付能力

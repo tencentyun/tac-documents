@@ -30,7 +30,7 @@ OpenMidas.pay(payInfo, callback, appMetadata);
 
 参数名 | 参数类型 | 必填 | 参数说明
 --- | --- | --- | ---
-payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://cloud.tencent.com/document/product/666/17994#.E5.95.86.E5.93.81.E4.B8.8B.E5.8D.95) 商品下单接口返回值里的 pay_info
+payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%20API.md) 商品下单接口返回值里的 pay_info
 callBack | Function | 是 | 支付完成回调函数，回调参数说明看下文“回调 url 示例”
 appMetadata | String | 否 | 扩展字段，key=value 形式，最大长度 255。客户端回调时回传给调用方。
 
@@ -53,7 +53,7 @@ OpenMidas.pay(payInfo, appMetadata);
 
 参数名 | 参数类型 | 必填 | 参数说明
 --- | --- | --- | ---
-payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://cloud.tencent.com/document/product/666/17994#.E5.95.86.E5.93.81.E4.B8.8B.E5.8D.95) 商品下单接口返回值里的 pay_info
+payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%20API.md) 商品下单接口返回值里的 pay_info
 appMetadata | String | 否 | 扩展字段，key=value 形式，最大长度 255。客户端回调时回传给调用方。
 
 **调用方式示例**：
@@ -99,7 +99,7 @@ OpenMidas.pay(String payInfo, Function callback, String appMetadata)
 
 参数名 | 参数类型 | 必填 | 参数说明
 --- | --- | --- | ---
-payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://cloud.tencent.com/document/product/666/17994#.E5.95.86.E5.93.81.E4.B8.8B.E5.8D.95) 商品下单接口返回值里的 pay_info
+payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%20API.md) 商品下单接口返回值里的 pay_info
 callBack | Function | 是 | 支付完成回调函数，回调参数说明详见“小程序支付接口”
 appMetadata | String | 否 | 扩展信息回传，透传支付时传入的参数。同支付时传入的 appMetadata
 

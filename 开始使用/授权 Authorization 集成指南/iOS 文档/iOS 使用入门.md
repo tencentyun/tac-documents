@@ -7,7 +7,7 @@
 ## 第一步：创建项目和应用
 
 
-在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](https://cloud.tencent.com/document/product/666/15345)。
+在使用我们的服务前，您必须先在 MobileLine 控制台上创建项目和应用。
 
 > 如果您已经在 MobileLine 控制台上创建过了项目和应用，请跳过此步。
 
@@ -323,18 +323,3 @@ TACApplication.configurate();
 
 移动授权 服务无需启动，到此您已经成功接入了 MobileLine 移动授权服务。
 
-## 后续步骤
-
-
-### 了解 MobileLine：
-
-- 查看 [MoblieLine 应用示例](https://ios-release-1253960454.cos.ap-shanghai.myqcloud.com/tac.zip)
-
-### 向您的应用添加 MobileLine 功能：
-
-- 借助 [Analytics](https://cloud.tencent.com/document/product/666/14822) 深入分析用户行为。
-- 借助 [messaging](https://cloud.tencent.com/document/product/666/14826) 向用户发送通知。
-- 借助 [crash](https://cloud.tencent.com/document/product/666/14824) 确定应用崩溃的时间和原因。
-- 借助 [storage](https://cloud.tencent.com/document/product/666/14828) 存储和访问用户生成的内容（如照片或视频）。
-- 借助 [authorization](https://cloud.tencent.com/document/product/666/14830) 来进行用户身份验证。
-- 借助 [payment](https://cloud.tencent.com/document/product/666/14832) 获取微信和手 Q 支付能力

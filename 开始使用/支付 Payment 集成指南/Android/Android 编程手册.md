@@ -1,6 +1,6 @@
 ## 商品下单
 
-在您发起支付前，需要先调用米大师的 [下单接口](https://cloud.tencent.com/document/product/666/14600) 进行下单，下单成功后，米大师会给您返回本次下单的具体信息，下单服务器返回的数据示例如下：
+在您发起支付前，需要先调用米大师的 [下单接口](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E5%8F%91%E8%B4%A7%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE.md) 进行下单，下单成功后，米大师会给您返回本次下单的具体信息，下单服务器返回的数据示例如下：
 
 ```
 {

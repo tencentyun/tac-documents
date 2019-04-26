@@ -4,9 +4,9 @@
 
 在 MobileLine 控制台中关联您的应用
 
-1. 安装 [应用云 SDK](https://cloud.tencent.com/document/product/666/14333)。
+1. 安装 [应用云 SDK](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%A0%B8%E5%BF%83%E6%A8%A1%E5%9D%97%20Core%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/iOS%20%E6%96%87%E6%A1%A3/iOS%20%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8.md)。
 2. 在 [MobileLine 控制台](https://console.cloud.tencent.com/tac)中，将您的应用添加到您的 应用云 项目中。
-3. 参考 [Authorization 快速入门](https://cloud.tencent.com/document/product/666/14333)，配置并初始化  Authorization。
+3. 参考 [Authorization 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%8E%88%E6%9D%83%20Authorization%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/iOS%20%E6%96%87%E6%A1%A3/iOS%20%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8.md)，配置并初始化  Authorization。
 
 
 ## 获取第三方用户登录信息

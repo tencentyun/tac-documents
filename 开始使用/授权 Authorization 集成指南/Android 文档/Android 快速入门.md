@@ -4,7 +4,7 @@
 
 ## 第一步：创建项目和应用（已完成请跳过）
 
-在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](https://cloud.tencent.com/document/product/666/15345)。
+在使用我们的服务前，您必须先在 MobileLine 控制台上创建项目和应用。
 
 ## 第二步：添加配置文件（已完成请跳过）
 
@@ -70,7 +70,7 @@ dependencies {
 
 ## 第四步：配置QQ、微信渠道
 
-登录 SDK 需要配置 QQ、微信渠道才能正常工作，关于如何配置，请参见 [配置第三方渠道](https://cloud.tencent.com/document/product/666/17846)。
+登录 SDK 需要配置 QQ、微信渠道才能正常工作，关于如何配置，请参见 [配置第三方渠道](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%8E%88%E6%9D%83%20Authorization%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/%E9%85%8D%E7%BD%AE%E7%AC%AC%E4%B8%89%E6%96%B9%E6%B8%A0%E9%81%93.md)。
 
 到此您已经成功接入了 MobileLine 登录与授权服务。
 

@@ -29,7 +29,7 @@ amount |	int |	是	| 支付金额，单位： 分
 product\_name	| string[128] | 	是	| 商品名称
 product\_detail |	string[255] | 是	 | 商品详情
 ts |	string[10]	| 是	| UNIX 时间戳（格林威治时间），精确到秒。
-sign |	string[32] |	是	| [请求签名](https://cloud.tencent.com/document/product/666/16830)
+sign |	string[32] |	是	| [请求签名](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E7%AD%BE%E5%90%8D%E8%AE%A1%E7%AE%97.md)
 sub\_appid	| string[50] |	否	| 子应用 ID
 channel |	string[10]|	否	| 指定支付渠道：wechat：微信支付； qqwallet：QQ 钱包
 type | string[10] | 否 | 如果是账户托管充值，值必须为 save
@@ -436,7 +436,7 @@ msg	|string[512]|	失败的错误信息。
 user_id	|string[255]|	是	|用户 ID，长度不小于 5 位，仅支持字母和数字的组合。
 refund_id	|string[32]|	是	|退款订单号，应用需要保持唯一性。仅支持数字、字母、下划线（_）、横杠字符（-）、点（.）的组合。"
 ts	| string[10]	| 是| 	unix 时间戳（格林威治时间）,精确到秒。
-sign|	string[32]	|是	|[请求签名](https://cloud.tencent.com/document/product/666/16830)
+sign|	string[32]	|是	|[请求签名](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E7%AD%BE%E5%90%8D%E8%AE%A1%E7%AE%97.md)
 
 **返回 JSON 结果**
 
@@ -468,7 +468,7 @@ state	| int	| 退款状态码 1：退款中；2：退款成功；3：退款失�
 |:--:|:--|:--|:--|
 |user_id|string[255]|是|用户ID，长度不小于5位，仅支持字母和数字的组合。|
 |ts|string[10]|是|unix时间戳（格林威治时间），精确到秒。|
-|sign|string[32]|是|[签名](https://cloud.tencent.com/document/product/666/16830)|
+|sign|string[32]|是|[签名](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E7%AD%BE%E5%90%8D%E8%AE%A1%E7%AE%97.md)|
 
 
 返回的 JSON 结果
@@ -500,7 +500,7 @@ state	| int	| 退款状态码 1：退款中；2：退款成功；3：退款失�
 |amt|int|是|扣款金额|
 |billno|string[32]|是|订单号，仅支持数字、字母、下划线（_）、横杠字符（-）、点（.）的组合。|
 |ts|string[10]|是|unix时间戳（格林威治时间），精确到秒。|
-|sign|string[32]|是|[签名](https://cloud.tencent.com/document/product/666/16830)|
+|sign|string[32]|是|[签名](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E7%AD%BE%E5%90%8D%E8%AE%A1%E7%AE%97.md)|
 
 返回的 JSON 结果
 
@@ -533,7 +533,7 @@ state	| int	| 退款状态码 1：退款中；2：退款成功；3：退款失�
 |user_id|string[255]|是|用户ID，长度不小于5位，仅支持字母和数字的组合。|
 |billno|string[32]|是|订单号，仅支持数字、字母、下划线（_）、横杠字符（-）、点（.）的组合。|
 |ts|string[10]|是|unix时间戳（格林威治时间），精确到秒。|
-|sign|string[32]|是|[签名](https://cloud.tencent.com/document/product/666/16830)|
+|sign|string[32]|是|[签名](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E7%AD%BE%E5%90%8D%E8%AE%A1%E7%AE%97.md)|
 
 返回的 JSON 结果
 
@@ -565,7 +565,7 @@ state	| int	| 退款状态码 1：退款中；2：退款成功；3：退款失�
 |amt|int|是|赠送金额|
 |billno|string[32]|是|订单号，仅支持数字、字母、下划线（_）、横杠字符（-）、点（.）的组合。|
 |ts|string[10]|是|unix时间戳（格林威治时间），精确到秒。|
-|sign|string[32]|是|[签名](https://cloud.tencent.com/document/product/666/16830)|
+|sign|string[32]|是|[签名](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E7%AD%BE%E5%90%8D%E8%AE%A1%E7%AE%97.md)|
 
 返回的 JSON 结果
 

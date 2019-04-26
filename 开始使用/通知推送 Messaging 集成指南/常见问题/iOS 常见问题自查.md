@@ -18,7 +18,7 @@
 制作新的推送证书
 
 #### 文件大小为 0 kb，不能上传
-重新转换 pem 格式，信鸽证书制作教程：[iOS 推送证书设置指南](https://cloud.tencent.com/document/product/666/14860) 。
+重新转换 pem 格式，信鸽证书制作教程：[iOS 推送证书设置指南](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/iOS%20%E6%96%87%E6%A1%A3/iOS%E6%8E%A8%E9%80%81%E8%AF%81%E4%B9%A6%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97.md) 。
 
 ### 终端出现"Error Domain=NSCocoaErrorDomain Code=3000 "未找到应用程序的“aps-environment”的授权字符串" UserInfo=0x16545fc0 {NSLocalizedDescription=未找到应用程序的“aps-environment”的授权字符串}"错误
 这是由于 App 证书没有推送权限引起的。请重新配置证书。
