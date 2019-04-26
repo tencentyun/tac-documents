@@ -21,6 +21,5 @@ public class MyReceiver extends TACMessagingReceiver {
 
 
 ```
-> 接入 Messaging 服务请参考 [这里](https://cloud.tencent.com/document/product/666/14323)
 
 

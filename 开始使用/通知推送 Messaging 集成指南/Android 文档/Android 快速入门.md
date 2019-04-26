@@ -4,7 +4,7 @@
 
 ## 第一步：创建项目和应用（已完成请跳过）
 
-在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](https://cloud.tencent.com/document/product/666/15345)。
+在使用我们的服务前，您必须先在 MobileLine 控制台上创建项目和应用。
 
 ## 第二步：添加配置文件（已完成请跳过）
 
@@ -65,7 +65,7 @@ I/tacApp: TACMessagingService register success, code is 0, token is 495689dbfda4
 > **注意：**
 > 这里日志打印的 token 信息标识推送时的唯一 ID，您可以通过 token 信息给该设备发送通知。
 
-如果没有打印以上日志，请查看 [常见问题](https://cloud.tencent.com/document/product/666/14825)。
+如果没有打印以上日志，请查看 [常见问题](https://github.com/tencentyun/tac-documents/blob/master/FAQ/Messaging%20FAQ.md)。
 
 ### 在控制台上推送通知栏消息
 
@@ -136,15 +136,15 @@ I/tacApp: TACMessagingService register success, code is 0, token is 495689dbfda4
 - `onBindTagResult()`：绑定标签后回调。
 - `onUnbindTagResult()` ：解绑标签后回调。
 
-如何注册回调接口，请参见 [这里](https://cloud.tencent.com/document/product/666/16848)。
+如何注册回调接口，请参见 [这里](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/%E6%B3%A8%E5%86%8C%E7%8A%B6%E6%80%81%E5%9B%9E%E8%B0%83%E9%80%9A%E7%9F%A5.md)。
 
 ### 集成厂商推送通道
 
-**我们建议您集成厂商推送通道**，通过集成厂商官方提供的系统级推送通道，在对应厂商手机上，推送消息能够通过系统通道抵达终端，并且无需打开应用就能够收到推送，目前支持华为、小米和魅族三个厂商通道，具体集成方式请参考 [这里](https://cloud.tencent.com/document/product/666/16641)。
+**我们建议您集成厂商推送通道**，通过集成厂商官方提供的系统级推送通道，在对应厂商手机上，推送消息能够通过系统通道抵达终端，并且无需打开应用就能够收到推送，目前支持华为、小米和魅族三个厂商通道，具体集成方式请参考 [这里](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/%E9%9B%86%E6%88%90%E5%8E%82%E5%95%86%E6%8E%A8%E9%80%81%E9%80%9A%E9%81%93.md)。
 
 ### 给设备推送消息
 
-您可以通过控制台给设备推送消息(具体请参考 [这里](https://cloud.tencent.com/document/product/666/16640))，您也可以通过我们的后台接口来发送消息，具体请参考 [Rest API 使用指南](https://cloud.tencent.com/document/product/666/15584) 或者 [服务端 SDK](https://cloud.tencent.com/document/product/666/15606)。除了通过设备 token 来指定用户外，我们还支持通过标签推送消息（具体请参考 [这里](https://cloud.tencent.com/document/product/666/16637)）或者通过账户推送消息（具体请参考 [这里](https://cloud.tencent.com/document/product/666/16639)）。
+您可以通过控制台给设备推送消息(具体请参考 [这里](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%96%87%E6%A1%A3/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%96%87%E6%A1%A3.md))，您也可以通过我们的后台接口来发送消息，具体请参考 [Rest API 使用指南](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/API%20%E7%AE%80%E4%BB%8B.md) 或者 [服务端 SDK](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80.md)。除了通过设备 token 来指定用户外，我们还支持通过标签推送消息（具体请参考 [这里](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/%E6%A0%B9%E6%8D%AE%E6%A0%87%E7%AD%BE%E6%8E%A8%E9%80%81%E6%B6%88%E6%81%AF.md)）或者通过账户推送消息（具体请参考 [这里](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/%E6%A0%B9%E6%8D%AE%E8%B4%A6%E6%88%B7%E6%8E%A8%E9%80%81%E6%B6%88%E6%81%AF.md)）。
 
 
 

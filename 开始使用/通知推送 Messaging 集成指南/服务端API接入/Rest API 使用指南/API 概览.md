@@ -2,31 +2,31 @@
 
 |API 名称	|描述|
 |-----|------|
-|[单个设备](https://cloud.tencent.com/document/product/666/15584)	|给单个设备推送通知|
-|[批量设备](https://cloud.tencent.com/document/product/666/15586)	|给批量设备推送通知|
-|[标签](https://cloud.tencent.com/document/product/666/15588)	|可以针对设置过标签的设备进行推送|
-|[单个账号](https://cloud.tencent.com/document/product/666/15585)|给单个设备的账户推送通知|
-|[批量账号](https://cloud.tencent.com/document/product/666/15587)	|给批量设备的账户推送通知|
-|[高级批量账号](https://cloud.tencent.com/document/product/666/15589)	|给批量设备的账户推送通知 （推送目标帐号数量 ≥10000）|
+|[单个设备](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%8E%A8%E9%80%81%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E5%8D%95%E4%B8%AA%E8%AE%BE%E5%A4%87.md)	|给单个设备推送通知|
+|[批量设备](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%8E%A8%E9%80%81%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E6%89%B9%E9%87%8F%E8%AE%BE%E5%A4%87.md)	|给批量设备推送通知|
+|[标签](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%8E%A8%E9%80%81%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E6%A0%87%E7%AD%BE.md)	|可以针对设置过标签的设备进行推送|
+|[单个账号](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%8E%A8%E9%80%81%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E5%8D%95%E4%B8%AA%E8%B4%A6%E5%8F%B7.md)|给单个设备的账户推送通知|
+|[批量账号](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%8E%A8%E9%80%81%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E6%89%B9%E9%87%8F%E8%B4%A6%E5%8F%B7.md)	|给批量设备的账户推送通知|
+|[高级批量账号](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%8E%A8%E9%80%81%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E9%AB%98%E7%BA%A7%E6%89%B9%E9%87%8F%E8%B4%A6%E5%8F%B7.md)	|给批量设备的账户推送通知 （推送目标帐号数量 ≥10000）|
 ## 标签管理 API 
 |API 名称	|描述|
 |-----|------|
-|[设置标签](https://cloud.tencent.com/document/product/666/15599)	|批量设置标签信息|
-|[删除标签](https://cloud.tencent.com/document/product/666/15598)	|批量删除标签|
+|[设置标签](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%A0%87%E7%AD%BE%E7%AE%A1%E7%90%86%E7%9B%B8%E5%85%B3/%E6%89%B9%E9%87%8F%E8%AE%BE%E7%BD%AE%E6%A0%87%E7%AD%BE.md)	|批量设置标签信息|
+|[删除标签](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%A0%87%E7%AD%BE%E7%AE%A1%E7%90%86%E7%9B%B8%E5%85%B3/%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%A0%87%E7%AD%BE.md)	|批量删除标签|
 ## 查询 API 
 |API 名称	|描述|
 |-----|------|
-|[查询消息](https://cloud.tencent.com/document/product/666/15596)	|查询群发消息发送状态|
-|[查询设备数](https://cloud.tencent.com/document/product/666/15592)	|查询应用覆盖的设备数（token 总数）|
-|[查询设备信息](https://cloud.tencent.com/document/product/666/15590)|查询应用的某个 token 的信息（查看是否有效）|
-|[查询映射设备](https://cloud.tencent.com/document/product/666/15593)|查询应用某帐号映射的 token（查看帐号-token 对应关系）|
-|[查询应用标签](https://cloud.tencent.com/document/product/666/15591)	|查询应用设置的标签|
-|[查询设备标签](https://cloud.tencent.com/document/product/666/15597)	|查询应用的某个设备上设置的标签|
-|[查询标签下设备数](https://cloud.tencent.com/document/product/666/15595)	|查询应用某个标签下关联的设备数|
+|[查询消息](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%9F%A5%E8%AF%A2%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E6%9F%A5%E8%AF%A2%E7%BE%A4%E5%8F%91%E7%8A%B6%E6%80%81.md)	|查询群发消息发送状态|
+|[查询设备数](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%9F%A5%E8%AF%A2%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E6%9F%A5%E8%AF%A2%E5%BA%94%E7%94%A8%E8%AE%BE%E5%A4%87%E6%95%B0.md)	|查询应用覆盖的设备数（token 总数）|
+|[查询设备信息](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%9F%A5%E8%AF%A2%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E6%9F%A5%E8%AF%A2%E5%BA%94%E7%94%A8token.md)|查询应用的某个 token 的信息（查看是否有效）|
+|[查询映射设备](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%9F%A5%E8%AF%A2%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E6%9F%A5%E8%AF%A2%E6%98%A0%E5%B0%84token.md)|查询应用某帐号映射的 token（查看帐号-token 对应关系）|
+|[查询应用标签](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%9F%A5%E8%AF%A2%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E6%9F%A5%E8%AF%A2%E5%BA%94%E7%94%A8%E6%A0%87%E7%AD%BE.md)	|查询应用设置的标签|
+|[查询设备标签](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%9F%A5%E8%AF%A2%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E6%9F%A5%E8%AF%A2%E8%AE%BE%E5%A4%87%E6%A0%87%E7%AD%BE.md)	|查询应用的某个设备上设置的标签|
+|[查询标签下设备数](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%9F%A5%E8%AF%A2%E7%9B%B8%E5%85%B3%E6%8E%A5%E5%8F%A3/%E6%9F%A5%E8%AF%A2%E6%A0%87%E7%AD%BE%E4%B8%8B%E8%AE%BE%E5%A4%87%E6%95%B0.md)	|查询应用某个标签下关联的设备数|
 
 ## 删除和取消任务 API
 |API 名称	|描述|
 |-----|------|
-|[删除任务](https://cloud.tencent.com/document/product/666/15580#.E5.88.A0.E9.99.A4.E4.BB.BB.E5.8A.A1)	|删除群发推送任务的离线消息（针对有任务 ID）|
-|[取消任务](https://cloud.tencent.com/document/product/666/15580#.E5.8F.96.E6.B6.88.E4.BB.BB.E5.8A.A1)	|取消尚未触发的定时群发任务（针对尚未发送的任务）|
+|[删除任务](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%88%A0%E9%99%A4%E6%88%96%E5%8F%96%E6%B6%88%E4%BB%BB%E5%8A%A1%E6%8E%A5%E5%8F%A3.md)	|删除群发推送任务的离线消息（针对有任务 ID）|
+|[取消任务](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%88%A0%E9%99%A4%E6%88%96%E5%8F%96%E6%B6%88%E4%BB%BB%E5%8A%A1%E6%8E%A5%E5%8F%A3.md)	|取消尚未触发的定时群发任务（针对尚未发送的任务）|
 

@@ -21,4 +21,4 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
 > 请注意请一定要在该函数中调用绑定代码，如果您没有注册成功 APNS 则不会存在变量`[TACMessagingService defaultService].token`
 
 
-> 接入 Messaging 服务请参考 [这里](https://cloud.tencent.com/document/product/666/14350)
+> 接入 Messaging 服务请参考 [这里](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/iOS%20%E6%96%87%E6%A1%A3/iOS%20%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8.md)
