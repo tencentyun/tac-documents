@@ -9,7 +9,7 @@
 
 **接口**：`OpenMidas.init(env)`
 
-**参数说明如下**： 
+**参数说明如下**：
 
 参数名 | 参数类型 | 必填 | 参数说明
 --- | --- | --- | ---
@@ -30,7 +30,7 @@ OpenMidas.pay(payInfo, callback, appMetadata);
 
 参数名 | 参数类型 | 必填 | 参数说明
 --- | --- | --- | ---
-payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%20API.md) 商品下单接口返回值里的 pay_info
+payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%20API.md) 商品下单接口返回值里的 pay_info
 callBack | Function | 是 | 支付完成回调函数，回调参数说明看下文“回调 url 示例”
 appMetadata | String | 否 | 扩展字段，key=value 形式，最大长度 255。客户端回调时回传给调用方。
 
@@ -53,7 +53,7 @@ OpenMidas.pay(payInfo, appMetadata);
 
 参数名 | 参数类型 | 必填 | 参数说明
 --- | --- | --- | ---
-payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%20API.md) 商品下单接口返回值里的 pay_info
+payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%20API.md) 商品下单接口返回值里的 pay_info
 appMetadata | String | 否 | 扩展字段，key=value 形式，最大长度 255。客户端回调时回传给调用方。
 
 **调用方式示例**：
@@ -83,13 +83,13 @@ var OpenMidas = require("openMidas");
 
 **接口**：`OpenMidas.init(env)`
 
-**参数说明如下**： 
+**参数说明如下**：
 
 参数名 | 参数类型 | 必填 | 参数说明
 --- | --- | --- | ---
 env | String | 是 | 环境，release 表示正式环境，test 表示测试环境
 
-**接口**： 
+**接口**：
 
 ```
 OpenMidas.pay(String payInfo, Function callback, String appMetadata)
@@ -99,7 +99,7 @@ OpenMidas.pay(String payInfo, Function callback, String appMetadata)
 
 参数名 | 参数类型 | 必填 | 参数说明
 --- | --- | --- | ---
-payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%20API.md) 商品下单接口返回值里的 pay_info
+payInfo | String | 是 | 支付参数，详见 [服务器端 API](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%20API.md) 商品下单接口返回值里的 pay_info
 callBack | Function | 是 | 支付完成回调函数，回调参数说明详见“小程序支付接口”
 appMetadata | String | 否 | 扩展信息回传，透传支付时传入的参数。同支付时传入的 appMetadata
 
@@ -145,18 +145,18 @@ env | String | 是 | 环境，release 表示正式环境，test 表示测试环�
 OpenMidas.signContract(Object params,Function errorCallback)
 ```
 
-**参数说明如下**： 
+**参数说明如下**：
 
 参数名 | 参数类型 | 必填 | 参数说明
 --- | --- | --- | --- |
-params.appId | String | 是 | 米大师的应用 ID 
+params.appId | String | 是 | 米大师的应用 ID
 params.userId | String | 是 | 用户 ID
 params.channel | String | 是 | 签约渠道，可选值：wechat（使用微信签约）
 params.redirectUrl | String | 是 | 签约完成之后的回调 url，当用户从签约 url 返回时，会跳转到这个 url 上，url 参数会带上 appId、openId、channel、fromSign=1。
 errorCallback | Function | 否 | 当内部参数校验不通过或者后台返回错误时，会执行回调，回调参数参见下表“错误回调参数说明”。
 
 **错误回调参数说明**：
- 
+
 属性 | 类型 | 取值
 --- | --- | ---
 resultCode | Int | -1(PAYRESULT_ERROR 签约流程失败流程失败),-3(PAYRESULT_PARAMERROR 参数错误)
@@ -192,7 +192,7 @@ var OpenMidas=require("openMidas");
 OpenMidas.init(env)
 ```
 
-**参数说明如下**： 
+**参数说明如下**：
 
 参数名 | 参数类型 | 必填 | 参数说明
 --- | --- | --- | ---
@@ -211,7 +211,7 @@ OpenMidas.signContract(Object params,Function errorCallback)
 
 参数名 | 参数类型 | 必填 | 参数说明
 --- | --- | --- | ---
-params.appId | String | 是 | 米大师的应用 ID 
+params.appId | String | 是 | 米大师的应用 ID
 params.userId | String | 是 | 用户 ID
 errorCallback | Function | 否 | 当内部参数校验不通过或者后台返回错误时，会执行回调，回调参数参见下表“错误回调参数说明”。
 
@@ -220,7 +220,7 @@ errorCallback | Function | 否 | 当内部参数校验不通过或者后台返�
 属性 | 类型 | 取值
 --- | --- | ---
 resultCode | Int | -1 签约流程失败流程失败,-3 参数错误,-101 重复签约
-innerCode | String | 系统内部错误码，不直接展示给用户，以下特殊 innerCode 需要调用方特殊处理：402-1-2-1 小程序签约接口不存在，原因是微信客户端版本未满足 Android：6.5.10，IOS：6.5.9。402-1-2-2 未成功跳转到小程序签约，此时 resultMsg 透传微信侧返回的错误。 
+innerCode | String | 系统内部错误码，不直接展示给用户，以下特殊 innerCode 需要调用方特殊处理：402-1-2-1 小程序签约接口不存在，原因是微信客户端版本未满足 Android：6.5.10，IOS：6.5.9。402-1-2-2 未成功跳转到小程序签约，此时 resultMsg 透传微信侧返回的错误。
 resultMsg | String | 返回信息，不直接展示给用户
 
 **说明**：签约接口事件

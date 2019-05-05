@@ -2,7 +2,7 @@
 URL 路径：`http://接口域名/v2/application/get_app_token_info?params`
 
 ### 请求参数
-除了 [通用参数](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E9%80%9A%E7%94%A8%E5%8F%82%E6%95%B0.md) 外，还包括如下参数：
+除了 [通用参数](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E7%AB%AFAPI%E6%8E%A5%E5%85%A5/Rest%20API%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E9%80%9A%E7%94%A8%E5%8F%82%E6%95%B0.md) 外，还包括如下参数：
 
 |参数名|	类型	|必需	|默认值|	描述|
 |-|-|-|-|-|

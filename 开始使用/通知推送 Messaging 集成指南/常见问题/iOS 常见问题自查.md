@@ -1,10 +1,10 @@
 ### iOS 是否支持离线保存？
 苹果默认支持离线保存一条消息。关于离线保存的时长苹果官方文档没有明确的说明。
 
-### 为何每天看到的全量推送的实发量会有波动，有时高有时低？ 
+### 为何每天看到的全量推送的实发量会有波动，有时高有时低？
 信鸽后台会根据每天推送时，apns 返回的错误来清理已经过期的无效 Token。这个清理每天都会执行一次，因此第二天的全量推送实发量是已经除去了前一天的过期 Token 的数量，可能会比前一天的实发量少。这是属于正常现象。
 
-### 初始化信鸽接口，出现如下日志 2017-10-26 15:13:38.888951+0800 XG-Demo [2295:1737660] [xgpush]  服务器返回码: 20 
+### 初始化信鸽接口，出现如下日志 2017-10-26 15:13:38.888951+0800 XG-Demo [2295:1737660] [xgpush]  服务器返回码: 20
 在初始化信鸽的方法中 appid 和 appkey 不要使用宏定义。
 
 ### 什么情况会出现推送暂停
@@ -18,7 +18,7 @@
 制作新的推送证书
 
 #### 文件大小为 0 kb，不能上传
-重新转换 pem 格式，信鸽证书制作教程：[iOS 推送证书设置指南](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/iOS%20%E6%96%87%E6%A1%A3/iOS%E6%8E%A8%E9%80%81%E8%AF%81%E4%B9%A6%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97.md) 。
+重新转换 pem 格式，信鸽证书制作教程：[iOS 推送证书设置指南](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/iOS%20%E6%96%87%E6%A1%A3/iOS%E6%8E%A8%E9%80%81%E8%AF%81%E4%B9%A6%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97.md) 。
 
 ### 终端出现"Error Domain=NSCocoaErrorDomain Code=3000 "未找到应用程序的“aps-environment”的授权字符串" UserInfo=0x16545fc0 {NSLocalizedDescription=未找到应用程序的“aps-environment”的授权字符串}"错误
 这是由于 App 证书没有推送权限引起的。请重新配置证书。

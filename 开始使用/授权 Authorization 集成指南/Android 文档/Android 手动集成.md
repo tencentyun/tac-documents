@@ -6,7 +6,7 @@
 1. 下载 [移动开发平台（MobileLine）核心框架资源包](http://tac-android-libs-1253960454.file.myqcloud.com/tac-core.zip)，并解压。
 2. 下载 [移动开发平台（MobileLine） Authorization 资源包](http://tac-android-libs-1253960454.file.myqcloud.com/tac-authorization.zip)，并解压。
 
-#### 2. 集成 QQ SDK 
+#### 2. 集成 QQ SDK
 
 下载 [QQ SDK](http://tac-android-libs-1253960454.file.myqcloud.com/jars/open_sdk_r5923_lite.jar) ，并拷贝到应用模块的 `libs` 文件夹下。
 
@@ -23,7 +23,7 @@
 
     <application>
     	...
-    	
+
         <activity
             android:name="com.tencent.tauth.AuthActivity"
             android:launchMode="singleTask"
@@ -49,6 +49,6 @@
 
 #### 4. 配置第三方渠道
 
-登录 SDK 需要配置QQ、微信等第三方渠道才能正常工作，关于如何配置第三方渠道，请参见 [配置第三方渠道](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%8E%88%E6%9D%83%20Authorization%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/%E9%85%8D%E7%BD%AE%E7%AC%AC%E4%B8%89%E6%96%B9%E6%B8%A0%E9%81%93.md)。
+登录 SDK 需要配置QQ、微信等第三方渠道才能正常工作，关于如何配置第三方渠道，请参见 [配置第三方渠道](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E6%8E%88%E6%9D%83%20Authorization%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/%E9%85%8D%E7%BD%AE%E7%AC%AC%E4%B8%89%E6%96%B9%E6%B8%A0%E9%81%93.md)。
 
 到此您已经成功接入了 MobileLine 登录与授权服务。

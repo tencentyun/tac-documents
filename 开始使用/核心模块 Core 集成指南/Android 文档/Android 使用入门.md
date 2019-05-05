@@ -55,7 +55,7 @@ dependencies {
 ```
 dependencies {
 	// 增加这两行，其中 core 是所有其他模块的基础
-	compile 'com.tencent.tac:tac-core:1.3.+' 
+	compile 'com.tencent.tac:tac-core:1.3.+'
 	compile 'com.tencent.tac:tac-messaging:1.3.+'
 }
 ```
@@ -65,7 +65,7 @@ dependencies {
 ```
 dependencies {
 	// 增加这三行，其中 core 是所有其他模块的基础
-	compile 'com.tencent.tac:tac-core:1.3.+' 
+	compile 'com.tencent.tac:tac-core:1.3.+'
 	compile 'com.tencent.tac:tac-messaging:1.3.+'
 	compile 'com.tencent.tac:tac-crash:1.3.+'
 }
@@ -86,9 +86,9 @@ apply plugin: 'com.tencent.tac.services'
 
 |功能|服务名称|入门指南|
 |:---|:---|:---|
-|腾讯移动分析（MTA）|analytics|[Analytics 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%88%86%E6%9E%90%20Analytics%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
-|腾讯移动推送（信鸽）|messaging|[Messaging 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
-|腾讯崩溃服务（bugly）|crash|[Crash 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%B4%A9%E6%BA%83%E7%9B%91%E6%B5%8B%20Crash%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
-|腾讯计费（米大师）|payment|[Payment 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
-|移动存储（Storage）|storage|[Storage 快速入门](https://github.com/tencentyun/tac-documents/tree/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3)|
-|微信 QQ 登录（Authorization）|authorization|[Authorization 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E6%8E%88%E6%9D%83%20Authorization%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
+|腾讯移动分析（MTA）|analytics|[Analytics 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E5%88%86%E6%9E%90%20Analytics%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
+|腾讯移动推送（信鸽）|messaging|[Messaging 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E9%80%9A%E7%9F%A5%E6%8E%A8%E9%80%81%20Messaging%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
+|腾讯崩溃服务（bugly）|crash|[Crash 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E5%B4%A9%E6%BA%83%E7%9B%91%E6%B5%8B%20Crash%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
+|腾讯计费（米大师）|payment|[Payment 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
+|移动存储（Storage）|storage|[Storage 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|
+|微信 QQ 登录（Authorization）|authorization|[Authorization 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E6%8E%88%E6%9D%83%20Authorization%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)|

@@ -1,6 +1,6 @@
 使用 Storage 服务时，后台需要对您的身份进行校验，校验过程是通过调用接口时携带签名实现的。因此，Storage SDK 需要提前设置临时密钥才能正常的访问数据。临时密钥有一定的有效期，过期后自动失效。由于临时密钥需要永久密钥生成，而永久密钥放在客户端中有极大的泄露风险，因此建议通过后台生成临时密钥，并下发到客户端中。
 
-假设您已经按照 [快速搭建后台授权服务](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E5%AE%89%E5%85%A8%E5%92%8C%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6/%E7%94%A8%E6%88%B7%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6.md) 搭好了授权服务器，服务器的请求地址如下：
+假设您已经按照 [快速搭建后台授权服务](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E5%AE%89%E5%85%A8%E5%92%8C%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6/%E7%94%A8%E6%88%B7%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6.md) 搭好了授权服务器，服务器的请求地址如下：
 
 ```
 GET https://<SERVER_HOST><PATH>?<name>=<value>
@@ -47,7 +47,7 @@ storageOptions.setCredentialProvider(new HttpRequest.Builder<String>()
 	.path("<PATH>")					
 	.method("GET")
 	.query("<name>", "<value>")		
-	.addHeader("<header1>", "<value1>")	
+	.addHeader("<header1>", "<value1>")
 	.build());
 ```
 
@@ -67,7 +67,7 @@ storageOptions.setCredentialProvider(new MySessionCredentialProvider(new HttpReq
 	.path("<PATH>")					
 	.method("GET")
 	.query("<name>", "<value>")		
-	.addHeader("<header1>", "<value1>")	
+	.addHeader("<header1>", "<value1>")
 	.build()));
 ```
 
@@ -94,4 +94,3 @@ public class MySessionCredentialProvider extends SessionCredentialProvider {
 * secretKey: 临时密钥 secret key
 * sessionToken: 临时密钥 token
 * expiredTime: 密钥过期时间
-

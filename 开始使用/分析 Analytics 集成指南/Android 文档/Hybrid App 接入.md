@@ -22,7 +22,7 @@ H5 使用 JavaScript SDK ，采集到数据后，发往 App，App SDK 收到 Jav
 
 ### 准备工作
 
-Hybrid 统计是在原生统计基础上进行的，在开始之前，请确保已按照 [MTA Android 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%88%86%E6%9E%90%20Analytics%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md) 接入我们原生统计 SDK。
+Hybrid 统计是在原生统计基础上进行的，在开始之前，请确保已按照 [MTA Android 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E5%88%86%E6%9E%90%20Analytics%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Android%20%E6%96%87%E6%A1%A3/Android%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md) 接入我们原生统计 SDK。
 
 
 ### 设置监控 WebView
@@ -80,7 +80,7 @@ webView.setWebViewClient(new WebViewClient() {
 ## iOS 侧接入
 ### 准备工作
 
-Hybrid 统计是在原生统计基础上进行的，在开始之前，请确保已按照 [MTA iOS 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%88%86%E6%9E%90%20Analytics%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/iOS%20%E6%96%87%E6%A1%A3/iOS%20%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8.md) 接入我们原生统计 SDK。
+Hybrid 统计是在原生统计基础上进行的，在开始之前，请确保已按照 [MTA iOS 快速入门](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E5%88%86%E6%9E%90%20Analytics%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/iOS%20%E6%96%87%E6%A1%A3/iOS%20%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8.md) 接入我们原生统计 SDK。
 
 
 ### 设置监控 UIWebView

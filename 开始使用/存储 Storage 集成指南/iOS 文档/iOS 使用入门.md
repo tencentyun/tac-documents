@@ -2,7 +2,7 @@
 
 ## 准备工作
 * 您首先需要一个 iOS 工程，这个工程可以是您现有的工程，也可以是您新建的一个空的工程。
-* 其次您需要一个在后台搭建一个授权服务器，为SDK提供临时密钥，请参考 [用户访问控制](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E5%AE%89%E5%85%A8%E5%92%8C%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6/%E7%94%A8%E6%88%B7%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6.md)。
+* 其次您需要一个在后台搭建一个授权服务器，为SDK提供临时密钥，请参考 [用户访问控制](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/%E5%AE%89%E5%85%A8%E5%92%8C%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6/%E7%94%A8%E6%88%B7%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6.md)。
 
 
 ## 第一步：创建项目和应用
@@ -87,12 +87,12 @@ ${TAC_CORE_FRAMEWORK_PATH}/Scripts/tac.run.all.before.sh
 其中 `THIRD_FRAMEWORK_PATH` 变量的取值根据您的安装方式而不同：
 
 * 如果您使用 Cocoapods 来集成的则为 `${PODS_ROOT}/TACCore`，您需要黏贴的代码实例如下：
-   
+
   ~~~
   ${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.before.sh
   ~~~
 * 如果您使用手工集成的方式则为 `您存储 TACCore 库的地址`，即您 TACCore framework 的引入路径，您需要黏贴的代码实例如下：
-   
+
   ~~~
    export TAC_SCRIPTS_BASE_PATH=[自定义执行脚本查找路径，我们会在该路径下寻找所有以“tac.run.all.after.sh”命名的脚本，并执行，如果您不需要自定义不用动这里]
    [您存储 TACCore 库的地址]/TACCore.framework/Scripts/tac.run.all.before.sh
@@ -118,12 +118,12 @@ ${TAC_CORE_FRAMEWORK_PATH}/Scripts/tac.run.all.after.sh
 其中 `THIRD_FRAMEWORK_PATH` 变量的取值根据您的安装方式而不同：
 
 * 如果您使用 Cocoapods 来集成的则为 `${PODS_ROOT}/TACCore`，您需要黏贴的代码实例如下：
-	
+
   ~~~
   ${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.after.sh
   ~~~
 * 如果您使用手工集成的方式则为 `[您存储 TACCore 库的地址]`，即您 TACCore framework 的引入路径，您需要黏贴的代码实例如下：
-    
+
   ~~~
   #export TAC_SCRIPTS_BASE_PATH=[自定义执行脚本查找路径，我们会在该路径下寻找所有以“tac.run.all.after.sh”命名的脚本，并执行，如果您不需要自定义不用动这里]
   [您存储 TACCore 库的地址]/TACCore.framework/Scripts/tac.run.all.after.sh
@@ -166,7 +166,7 @@ TACApplication.configurate();
 
 ### 步骤三 配置 TACStorage 的使用权限
 
-Storage SDK 需要一个后台授权服务器提供临时密钥，才能正常工作。关于如何在 SDK 里配置服务器接口，请参见  [iOS 配置授权服务器](https://github.com/tencentyun/tac-documents/blob/master/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/iOS%20%E6%96%87%E6%A1%A3/iOS%20%E9%85%8D%E7%BD%AE%E6%8E%88%E6%9D%83%E6%9C%8D%E5%8A%A1%E5%99%A8.md)。
+Storage SDK 需要一个后台授权服务器提供临时密钥，才能正常工作。关于如何在 SDK 里配置服务器接口，请参见  [iOS 配置授权服务器](https://github.com/tencentyun/tac-documents/blob/master/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E5%AD%98%E5%82%A8%20Storage%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/iOS%20%E6%96%87%E6%A1%A3/iOS%20%E9%85%8D%E7%BD%AE%E6%8E%88%E6%9D%83%E6%9C%8D%E5%8A%A1%E5%99%A8.md)。
 
 ## 启动服务
 
