@@ -45,7 +45,7 @@ $ pod init
 并在您的 Podfile 文件中添加移动开发平台（MobileLine）的私有源：
 
 ~~~
-source "https://git.cloud.tencent.com/qcloud_u/cocopoads-repo"
+source "https://github.com/tencentyun/cocoapods-repo.git"
 source "https://github.com/CocoaPods/Specs"
 ~~~
 
